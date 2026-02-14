@@ -890,47 +890,10 @@ html{
   }
 }
 
-/* ===== HERO RESPONSIVE FIX ===== */
 
-.home{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  flex-wrap:wrap;
-}
 
-.home-content{
-  flex:1 1 320px;
-}
 
-.home-img{
-  flex:1 1 280px;
-  display:flex;
-  justify-content:center;
-}
 
-.home-img img{
-  width:clamp(220px,40vw,420px);
-  height:auto;
-}
-
-/* موبايل */
-@media(max-width:768px){
-
-  .home{
-    flex-direction:column-reverse;
-    text-align:center;
-    gap:3rem;
-  }
-
-  .home-content h1{
-    font-size:3.4rem;
-  }
-
-  .home-content h3{
-    font-size:2rem;
-  }
-}
 
 
 
