@@ -894,3 +894,94 @@ html{
 .project-card:hover .overlay{
     opacity:1;
 }
+
+/* ===== GLOBAL RESPONSIVE FIX ===== */
+html{
+  font-size: clamp(50%, 1vw + 0.5rem, 62.5%);
+}
+
+section{
+  padding: clamp(4rem,6vw,8rem) 5%;
+}
+
+/* ===== HEADER ===== */
+header{
+  flex-wrap: wrap;
+  height: auto;
+  padding: 1rem 5%;
+}
+
+nav a{
+  margin-left: 2rem;
+}
+
+/* ===== HERO ===== */
+.home{
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.home-content h1{
+  font-size: clamp(3rem,6vw,6rem);
+}
+
+.home-content h3{
+  font-size: clamp(2rem,4vw,4rem);
+}
+
+.home-img img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===== ABOUT CARDS FIX ===== */
+.about-cards{
+  grid-template-columns: repeat(auto-fit,minmax(160px,1fr));
+}
+
+/* ===== SERVICES ===== */
+.service-card{
+  flex: 1 1 220px;
+}
+
+/* ===== SKILLS ===== */
+.skill-box{
+  flex:1 1 220px;
+}
+
+/* ===== FORM ===== */
+.contact form{
+  padding: clamp(1.5rem,3vw,3rem);
+}
+
+/* ===== SMALL MOBILE ===== */
+@media(max-width:600px){
+
+  .logo{
+    width:40px;
+    margin-top:0;
+  }
+
+  nav{
+    width: 70%;
+  }
+
+  .typing-text{
+    font-size:22px;
+    min-width:auto;
+  }
+
+  .social-icons a{
+    width:3.5rem;
+    height:3.5rem;
+  }
+
+  .loading-bar{
+    width:80%;
+  }
+
+  .project-card img{
+    height:180px;
+  }
+}
+
