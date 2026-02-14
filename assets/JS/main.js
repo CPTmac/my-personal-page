@@ -191,4 +191,6 @@ services.forEach(s=>{
     });
 
   });
+
 });
+<div class="menu-toggle" onclick="toggleMenu()">☰</div>
