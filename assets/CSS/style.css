@@ -328,49 +328,7 @@ span{
 .dropdown-content a:hover{
  color: #4facfe;
 }
-/* شاشة التحميل */
-#loading-screen{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-     background: linear-gradient(
-        135deg,
-        #0B0C10 0%,
-        #0F3057 60%,
-        #0B0C10 100%
-    );
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: 2000; /* فوق كل حاجة */
-}
 
-/* اللوجو */
-.logo-container .logo{
-    width: 300px; /* حجم مناسب */
-    height: auto;
-    animation: logo-pulse 1.5s ease-in-out infinite;
-}
-
-
-/* الشريط */
-.loading-bar{
-    width: 60%;
-    height: 4px;
-    background-color: #333;
-    margin-top: 20px;
-    border-radius: 2px;
-    overflow: hidden;
-}
-
-.loading-bar .progress{
-    width: 0;
-    height: 100%;
-    background:linear-gradient(90deg,#4facfe,#00f2fe);
-}
 .skills{
     display: flex;
     justify-content: center;
@@ -973,5 +931,6 @@ html{
     font-size:2rem;
   }
 }
+
 
 
