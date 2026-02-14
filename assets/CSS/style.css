@@ -894,3 +894,40 @@ html{
 .project-card:hover .overlay{
     opacity:1;
 }
+
+/* ===== MOBILE NAV FIX ===== */
+
+.menu-toggle{
+  display:none;
+  font-size:2.6rem;
+  cursor:pointer;
+}
+
+/* يظهر زرار المينيو */
+@media(max-width:995px){
+
+  .menu-toggle{
+    display:block;
+    color:white;
+  }
+
+  nav{
+    position:absolute;
+    top:60px;
+    right:0;
+    width:70%;
+    background:#111;
+    padding:2rem;
+    display:none;
+    flex-direction:column;
+  }
+
+  nav.active{
+    display:flex;
+  }
+
+  nav a{
+    margin:1rem 0;
+    font-size:2rem;
+  }
+}
