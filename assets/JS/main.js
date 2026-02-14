@@ -1,22 +1,3 @@
-const progress = document.querySelector(".loading-bar .progress");
-const loadingScreen = document.getElementById("loading-screen");
-
-let width = 0;
-const interval = setInterval(() => {
-    width += 1; // سرعة التحميل
-    progress.style.width = width + "%";
-
-    if(width >= 100){
-        clearInterval(interval);
-        // fade out screen
-        loadingScreen.style.transition = "opacity 0.5s ease";
-        loadingScreen.style.opacity = 0;
-        setTimeout(()=> {
-            loadingScreen.style.display = "none";
-        }, 500);
-    }
-}, 20); // 20ms لكل خطوة → كامل في 2 ثواني تقريبًا
-
 const words = [
   "Web Developer",
   "Cybersecurity Enthusiast",
@@ -194,3 +175,4 @@ services.forEach(s=>{
 
 });
 <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
