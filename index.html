@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="assets/CSS/style.css">
+  <title>Portfolio Website</title>
+</head>
+
+<body>
+  <div id="loading-screen">
+    <div class="logo-container">
+      <!-- هنا حط الـ SVG أو img بتاعك -->
+      <img src="assets/SVGs/main.svg" alt="Logo" class="logo">
+    </div>
+    <div class="loading-bar">
+      <div class="progress"></div>
+    </div>
+  </div>
+  <header>
+    <a href="#" class="logo">
+      <div class="logo">
+        <img src="assets/SVGs/main.svg" alt="logo">
+        <svg class="logo-svg" viewBox="0 0 500 200">
+          <path d="...." />
+        </svg>
+      </div>
+    </a>
+
+    <nav>
+      <div class="dropdown">
+        <button class="dropbtn">services ▾</button>
+
+        <div class="dropdown-content">
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#">Experiences</a>
+    </nav>
+  </header>
+  <section class="home" id="home">
+    <div class="home-img">
+      <img src="assets/imgs/main.png" alt="logo">
+    </div>
+    <div class="home-content">
+      <h1>Hi, It's <span>Abdelnasser</span></h1>
+      <h3 class="typing-text">I'm a <span id="typed"></span></h3>
+      <p>i am a passionate software developer with expertise in building responsive and user-friendly web applications.
+      </p>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+
+      </div>
+      <a href="#" class="btn">Hire me</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+
+    <h2 class="section-title">About</h2>
+
+    <div class="about-wrap">
+
+      <div class="about-text">
+        <h3>Building ideas into reality</h3>
+
+        <p>
+          I'm a developer focused on crafting clean interfaces,
+          performance-aware code, and smart automation workflows.
+        </p>
+
+        <p>
+          Currently exploring scalable web systems,
+          machine learning integration,
+          and advanced UI interaction design.
+        </p>
+
+        <a href="#" class="btn">Download CV</a>
+      </div>
+
+      <!-- مكان الصورة -->
+      <div class="about-image">
+        <img src="images/me.jpg" alt="Profile">
+      </div>
+
+    </div>
+
+    </div>
+
+  </section>
+
+
+  <section class="skills" id="skills">
+
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills-grid">
+
+      <div class="skill-box">
+        <h3>HTML</h3>
+        <div class="bar"><span style="width:90%"></span></div>
+        <p>Semantic — SEO — Accessibility</p>
+      </div>
+
+      <div class="skill-box">
+        <h3>CSS</h3>
+        <div class="bar"><span style="width:85%"></span></div>
+        <p>Responsive — Grid — Animation</p>
+      </div>
+
+      <div class="skill-box">
+        <h3>JavaScript</h3>
+        <div class="bar"><span style="width:75%"></span></div>
+        <p>DOM — Async — Events</p>
+      </div>
+
+      <div class="skill-box">
+        <h3>Python</h3>
+        <div class="bar"><span style="width:70%"></span></div>
+        <p>OOP — Automation</p>
+      </div>
+
+      <div class="skill-box">
+        <h3>React</h3>
+        <div class="bar"><span style="width:10%"></span></div>
+        <p>Components — Hooks</p>
+      </div>
+
+      <div class="skill-box">
+        <h3>C++</h3>
+        <div class="bar"><span style="width:80%"></span></div>
+        <p>Object-Oriented Programming — STL</p>
+      </div>
+
+      <div class="skill-box">
+        <h3>Java</h3>
+        <div class="bar"><span style="width:10%"></span></div>
+        <p>Loops-Functions-Arrays</p>
+      </div>
+
+      <div class="skill-box">
+        <h3>MatLab</h3>
+        <div class="bar"><span style="width:25%"></span></div>
+        <p>Data Analysis — Visualization</p>
+      </div>
+
+      <div class="skill-box">
+        <h3>Logo Design</h3>
+        <div class="bar"><span style="width:70%"></span></div>
+        <p>Branding — Visual Identity</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="services" class="services">
+
+    <h2 class="section-title">Services</h2>
+
+    <div class="services-grid">
+
+      <div class="service-card" data-filter="web">
+        <div class="icon">⚡</div>
+        <h3>Web Development</h3>
+        <p>Modern responsive websites focused on performance and clean UI.</p>
+      </div>
+
+      <div class="service-card" data-filter="automation">
+        <div class="icon">🧠</div>
+        <h3>Automation</h3>
+        <p>Python & AI driven workflows that save time and scale tasks.</p>
+      </div>
+
+      <div class="service-card" data-filter="ui">
+        <div class="icon">🎨</div>
+        <h3>UI Engineering</h3>
+        <p>Interactive interfaces with smooth animations and UX clarity.</p>
+      </div>
+      
+      <div class="service-card" data-filter="logo">
+        <div class="icon">🎨</div>
+        <h3>Logo Design</h3>
+        <p>Custom branding and visual identity solutions.</p>
+      </div>
+
+      <div class="service-card" data-filter="tools">
+        <div class="icon">🛠</div>
+        <h3>Custom Tools</h3>
+        <p>Tailored utilities and scripts solving real engineering problems.</p>
+      </div>
+
+
+    </div>
+
+  </section>
+
+<section id="portfolio" class="portfolio">
+
+<h2 class="section-title">Work</h2>
+
+<div class="portfolio-grid" id="portfolioGrid">
+
+  <div class="project-card" data-cat="web">
+    <img src="img/p1.jpg">
+    <div class="overlay">
+      <h4>Landing Page</h4>
+    </div>
+  </div>
+
+  <div class="project-card" data-cat="automation">
+    <img src="img/p2.jpg">
+    <div class="overlay">
+      <h4>AI Workflow</h4>
+    </div>
+  </div>
+
+  <div class="project-card" data-cat="ui">
+    <img src="img/p3.jpg">
+    <div class="overlay">
+      <h4>Dashboard UI</h4>
+    </div>
+  </div>
+
+  <div class="project-card" data-cat="tools">
+    <img src="img/p4.jpg">
+    <div class="overlay">
+      <h4>Custom Script</h4>
+    </div>
+  </div>
+
+</div>
+</section>
+
+
+  <section id="contact" class="contact">
+
+    <h2 class="section-title">Contact</h2>
+
+    <form action="https://formspree.io/f/xpqjdwgb" method="POST" enctype="multipart/form-data">
+      <div id="form-status" class="form-status"></div>
+
+
+      <h3 class="form-guide-title">Help me understand your project</h3>
+
+      <ul class="form-guide">
+        <li>Describe what you want to build</li>
+        <li>Share links or inspiration</li>
+        <li>Mention deadline (if any)</li>
+        <li>Tell me your budget range</li>
+      </ul>
+
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+
+      <textarea name="message" placeholder="Tell me about your project..." required></textarea>
+
+      <!-- رفع ملفات -->
+      <label class="file-upload">
+        Attach reference files or screenshots
+        <input type="file" name="attachment" multiple>
+      </label>
+
+      <button type="submit" class="btn">Send Request</button>
+
+    </form>
+
+  </section>
+
+
+
+
+  <button id="backTop">^</button>
+  <script src="assets/JS/main.js"></script>
+</body>
+
+</html>
